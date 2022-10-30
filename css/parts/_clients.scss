@@ -1,0 +1,84 @@
+.clients {
+    padding-top: $landing-padding;
+    padding-bottom: $landing-padding;
+    background-color: rgb(245, 245,245);
+}
+
+.clients-heading {
+    font-weight: lighter;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.clients-subheading {
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.client-quote {
+    border: 1px solid rgb(235, 235, 235);
+    background-color: rgb(255, 255, 255);
+    padding-left: 75px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 70px;
+    border-radius: 5px;
+    font-size: 130%;
+    font-weight: lighter;
+    font-style: italic;
+    color: rgb(30, 30, 30);
+    position: relative;
+
+}
+
+.client-quote p {
+    margin-bottom: 5px;
+}
+
+.client-quote-author {
+    font-style: normal;
+    font-size: 70%;
+    color: rgb(119, 147, 197);
+}
+
+.client-quote::before,
+.client-quote::after {
+    content: "";
+    display: block;
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    top: 50%;
+}
+
+.client-quote::before {
+    left: -30px;
+    margin-top: -15px;
+    border: 15px solid transparent;
+    border-right: 15px solid rgb(235, 235, 235);
+}
+
+.client-quote::after {
+    left: -26px;
+    margin-top: -13px;
+    border: 13px solid transparent;
+    border-right: 13px solid rgb(255, 255, 255);
+}
+
+
+.client-quote-left::before {
+    right: -30px;
+    left: auto;
+    margin-top: -15px;
+    border: 15px solid transparent;
+    border-left: 15px solid rgb(235, 235, 235);
+}
+
+.client-quote-left::after {
+    right: -26px;
+    left: auto;
+    margin-top: -13px;
+    border: 13px solid transparent;
+    border-left: 13px solid rgb(255, 255, 255);
+}

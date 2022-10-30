@@ -1,0 +1,80 @@
+.header {
+    height: 620px;
+    background-image: url("../img/header-background-edited.jpg");
+    background-size: cover;
+    background-position: 50% 62%; 
+}
+
+.header-navbar-links {
+    color: red;
+    float: right;
+    position: relative;
+    bottom: 45px;
+}
+
+.header-navbar-links li {
+    float: left;
+    list-style-type: none;
+    margin-left: 26px;
+    text-shadow: 0px 0px 2px black;
+}
+
+.header-navbar-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.header-navbar-links a:hover{
+    text-decoration: underline;
+    color: rgb(254, 22, 22);
+    transition: all 0.5s;
+}
+
+.header-brand-wrapper {
+    float: left;
+}
+
+.header-brand {
+    margin-top: -8%;
+    display: block;
+    font-weight: bold;
+    font-size: 150%;
+    text-decoration: none;
+    color: white;
+    text-shadow: 0px 0px 2px black;
+    position: relative;
+    bottom: 45px;
+}
+
+.slogan {
+    color: white;
+    text-align: center;
+    font-family: "mulish", sans-serif;
+    padding-top: 60px;
+    text-shadow: 0px 0px 2px black;
+}
+
+.slogan-top {
+    font-size: 170%;
+    font-weight: 300;
+    font-family: "mulish", sans-serif; 
+}
+
+
+.slogan-bottom {
+    font-size: 270%;
+    font-weight: bold;
+}
+
+.slogan-button {
+    margin-top: 90px;
+    color: white;
+    text-shadow: 0px 0px 2px black;
+    position: relative;
+    bottom: 20px;
+}
+
+.slogan-button:hover {
+    color: white;
+    text-shadow: 0px 0px 2px black;
+}

@@ -1,0 +1,44 @@
+.features {
+    padding-top: $landing-padding;
+    padding-bottom: 85px;
+}
+
+.feature-icon {
+    width: 70px;
+    height: 60px;
+    background-color: rgb(30, 30, 30);
+    border-radius: 50px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+    float: left;
+    transition: all 0.5s;
+
+    @media($bp-larger-than-phablet) {
+        display: none;
+        margin-left: 0px;
+
+
+    @media ($bp-larger-than-tablet) {
+        display: block; 
+        margin-left:block; 
+    }
+
+    }
+}
+
+
+.feature-icon:hover {
+    transform: rotate(360deg);
+}
+.feature-text {
+    margin-left: 90px;
+}
+
+.feature-text h5 {
+    margin-bottom: 7px;
+    font-size: 150%;
+    color: rgb(30, 30, 30);
+    font-weight: bold;
+}
